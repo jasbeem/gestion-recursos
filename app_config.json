@@ -1,7 +1,7 @@
 {
   "inventario": [
     {
-      "recurso": "Carro grande - Planta baja",
+      "recurso": "Carro grande - Planta alta",
       "ubicacion": "Edificio El Convento",
       "recursos": [
         "Portatil 01", "Portatil 02", "Portatil 03", "Portatil 04", "Portatil 05",
@@ -105,6 +105,7 @@
 
   "formulario_google": {
     "formId": "1FAIpQLScqluxZ9D-j8MijDWmcLXzKoYNa_6cEojhQ89Q-wbBjtYxaJA",
+    "submit_api_url": "https://script.google.com/macros/s/AKfycbx2PV6Evl1DSE0UUyFpXSVbLSy0MohD7N6eACxK6bNA3jNvrgl8Ptq9R4x9YNr4TfqqEQ/exec",
     "entryMap": {
       "fecha_hora": ["entry.2133478235"],
       "recurso": ["entry.843242941"],

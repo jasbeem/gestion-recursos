@@ -117,6 +117,11 @@ Campos esperados por la app:
 - `incidencia`
 - `sessionId`
 
+Envio automatico verificable (recomendado):
+- Añade `submit_api_url` dentro de `formulario_google` (o a nivel raiz del JSON).
+- La app enviara por `POST` JSON a esa URL y esperara respuesta HTTP 200 con `{"ok": true}`.
+- Si no existe `submit_api_url`, se usa envio directo a Google Forms (menos verificable por limitaciones del navegador/CORS).
+
 ## Carga de sesion desde Google Drive (Alumno)
 
 Puedes indicar en `examples/config.json`:
