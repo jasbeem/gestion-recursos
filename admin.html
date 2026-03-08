@@ -9,7 +9,6 @@
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%AB%3C/text%3E%3C/svg%3E"
     />
     <script>
-      tailwind = { config: { darkMode: "class" } };
       (function () {
         const stored = localStorage.getItem("erp_theme_mode");
         const mode = stored === "light" || stored === "dark"
@@ -19,10 +18,9 @@
         document.documentElement.classList.toggle("dark", isDark);
       })();
     </script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script type="module" crossorigin src="./assets/admin-jXGAk3ss.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/theme-lwjAoZBG.js">
-    <link rel="stylesheet" crossorigin href="./assets/theme-BqxzABV_.css">
+    <script type="module" crossorigin src="./assets/admin-BtuzuC0g.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/theme-BfD0tgVz.js">
+    <link rel="stylesheet" crossorigin href="./assets/theme-DfQsQ1G9.css">
   </head>
   <body class="app-body text-slate-800 dark:text-slate-100">
     <main class="mx-auto min-h-screen max-w-7xl p-4 md:p-8">
@@ -52,10 +50,10 @@
             <label class="block text-sm font-medium">URL JSON</label>
             <input id="boot-config-url" type="url" placeholder="https://.../config.json" class="w-full rounded-lg border border-slate-300 px-3 py-2" />
             <button id="boot-download-json" type="button" class="btn primary w-full">
-              Descarga JSON
+              Abrir carpeta en Drive
             </button>
             <p class="text-xs text-slate-500 dark:text-slate-300">
-              Abre la Web App en otra pestaña para confirmar tu cuenta @ieselconvento.es. Si el botón falla al principio, vuelve a pulsarlo después de autenticarte; verás el JSON descargado en el área inferior.
+              Usa este botón para abrir la carpeta de Drive. Después, descarga el JSON y pégalo manualmente en el área inferior o cárgalo como archivo.
             </p>
             <button
               id="boot-show-json-editor"
